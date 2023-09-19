@@ -628,10 +628,12 @@
 % Usage: \cvsection{<section-title>}
 \newcommand{\cvsection}[1]{%
   \vspace{\acvSectionTopSkip}
-  \sectionstyle{#1}
+  \textbf{#1}
+  % \sectionstyle{#1}
   \phantomsection
   \color{sectiondivider}\vhrulefill{0.9pt}
-}
+
+  }
 
 % Define a subsection for CV
 % Usage: \cvsubsection{<subsection-title>}
